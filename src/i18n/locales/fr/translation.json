@@ -1,0 +1,159 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "Connectez au-delà des limites"
+  },
+  "nav": {
+    "home": "Accueil",
+    "explore": "Explorer",
+    "reels": "Reels",
+    "chat": "Messages",
+    "profile": "Profil",
+    "settings": "Paramètres"
+  },
+  "topbar": {
+    "search": "Rechercher dans NEXUS...",
+    "notifications": "Notifications",
+    "newPost": "Créer"
+  },
+  "pages": {
+    "home": {
+      "title": "Votre Fil",
+      "subtitle": "Stories et publications des comptes suivis"
+    },
+    "explore": {
+      "title": "Explorer",
+      "subtitle": "Découvrez les tendances et de nouveaux profils"
+    },
+    "reels": {
+      "title": "Reels",
+      "subtitle": "Courtes vidéos créées pour vous"
+    },
+    "chat": {
+      "title": "Messages Chiffrés",
+      "subtitle": "Conversations éphémères et de pair à pair"
+    },
+    "profile": {
+      "title": "Profil",
+      "subtitle": "Vos publications, abonnés et réseau"
+    },
+    "settings": {
+      "title": "Paramètres Système",
+      "subtitle": "Langue, confidentialité, sécurité et préférences"
+    }
+  },
+  "auth": {
+    "welcome": "Bienvenue sur NEXUS",
+    "tagline": "Réseau social décentralisé nouvelle génération",
+    "signIn": "Se Connecter",
+    "signUp": "Créer un Compte",
+    "guestLogin": "Explorer en Invité",
+    "emailLabel": "Adresse E-mail",
+    "emailPlaceholder": "utilisateur@nexus.io",
+    "passwordLabel": "Mot de Passe Principal",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "Numéro de Téléphone (Facultatif)",
+    "phonePlaceholder": "+33 6 00 00 00 00",
+    "countryLabel": "Pays / Région",
+    "detectLocation": "Détection Automatique",
+    "detecting": "Détection...",
+    "privacyConsent": "J'accepte les conditions de confidentialité absolue et zéro traçage",
+    "alreadyHaveAccount": "Déjà membre de NEXUS ?",
+    "dontHaveAccount": "Nouveau sur NEXUS ?",
+    "or": "OU",
+    "signingIn": "Authentification...",
+    "signingUp": "Création de votre identité...",
+    "signOut": "Se Déconnecter"
+  },
+  "chat": {
+    "searchPlaceholder": "Rechercher une discussion...",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "typing": "écrit...",
+    "selfDestructActive": "Autodestruction Active",
+    "expiresIn": "Expire dans {{time}}",
+    "keepForever": "Garder Indéfiniment",
+    "expire1h": "1 Heure",
+    "expire24h": "24 Heures",
+    "expire7d": "7 Jours",
+    "expirySelectTitle": "Délai d'expiration",
+    "expirySelectDesc": "Les messages s'évaporeront automatiquement après cette durée",
+    "typePlaceholder": "Écrivez un message chiffré...",
+    "send": "Envoyer",
+    "burnNotice": "🔥 Autodestruction activée. Messages éphémères côté client.",
+    "viewMediaOnce": "Appuyer pour révéler (Vue unique)",
+    "mediaBurned": "Média détruit après visionnage",
+    "newChat": "Nouveau Message",
+    "startCall": "Appel",
+    "startVideo": "Vidéo"
+  },
+  "call": {
+    "voiceCall": "Appel Vocal NEXUS",
+    "videoCall": "Appel Vidéo NEXUS",
+    "connecting": "Établissement du lien P2P...",
+    "connected": "Session P2P Sécurisée",
+    "callEnded": "Appel Terminé",
+    "incomingCall": "Appel Entrant",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "mute": "Muet",
+    "unmute": "Micro Activé",
+    "videoOn": "Caméra Active",
+    "videoOff": "Caméra Éteinte",
+    "flip": "Changer Caméra",
+    "record": "Enregistrer l'Appel",
+    "recording": "Enregistrement...",
+    "endCall": "Raccrocher",
+    "recordingSaved": "Enregistrement téléchargé"
+  },
+  "settings": {
+    "languageSection": "Langue & Sens de Lecture",
+    "activeLanguage": "Langue Active",
+    "privacySection": "Confidentialité & Sécurité",
+    "p2pTitle": "Chiffrement Pair à Pair (P2P)",
+    "p2pDesc": "Échanges directs d'appareil à appareil via WebRTC",
+    "locationTitle": "Contexte de Localisation",
+    "locationDesc": "Contexte pays/région pour les nœuds décentralisés",
+    "appearanceSection": "Esthétique du Système",
+    "theme": "Thème de l'Interface",
+    "themeFuturistic": "Cyber Violet (Défaut)",
+    "accountSection": "Compte",
+    "aboutSection": "À propos de NEXUS",
+    "version": "Version 2.0.0 (Cœur Décentralisé)",
+    "clearCache": "Vider le Cache Local"
+  },
+  "common": {
+    "comingSoon": "Bientôt Disponible",
+    "underConstruction": "Cette fonctionnalité arrive très bientôt. Restez connectés !",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "share": "Partager",
+    "like": "J'aime",
+    "comment": "Commenter",
+    "follow": "Suivre",
+    "unfollow": "Ne plus suivre",
+    "message": "Message",
+    "viewAll": "Tout Afficher",
+    "seeMore": "Voir Plus",
+    "success": "Succès",
+    "copied": "Copié dans le presse-papiers"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

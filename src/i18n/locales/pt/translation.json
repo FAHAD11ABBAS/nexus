@@ -1,0 +1,159 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "Conecte-se Além dos Limites"
+  },
+  "nav": {
+    "home": "Início",
+    "explore": "Explorar",
+    "reels": "Reels",
+    "chat": "Chat",
+    "profile": "Perfil",
+    "settings": "Ajustes"
+  },
+  "topbar": {
+    "search": "Pesquisar no NEXUS...",
+    "notifications": "Notificações",
+    "newPost": "Criar"
+  },
+  "pages": {
+    "home": {
+      "title": "Seu Feed",
+      "subtitle": "Histórias e publicações de quem você segue"
+    },
+    "explore": {
+      "title": "Explorar",
+      "subtitle": "Descubra tendências e novos perfis"
+    },
+    "reels": {
+      "title": "Reels",
+      "subtitle": "Vídeos curtos feitos para você"
+    },
+    "chat": {
+      "title": "Mensagens Criptografadas",
+      "subtitle": "Conversas autodestrutivas ponto a ponto"
+    },
+    "profile": {
+      "title": "Perfil",
+      "subtitle": "Suas postagens, seguidores e conexões"
+    },
+    "settings": {
+      "title": "Configurações",
+      "subtitle": "Idioma, privacidade, segurança e preferências"
+    }
+  },
+  "auth": {
+    "welcome": "Bem-vindo ao NEXUS",
+    "tagline": "Rede social descentralizada de nova geração",
+    "signIn": "Entrar",
+    "signUp": "Criar Conta",
+    "guestLogin": "Explorar como Convidado",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "usuario@nexus.io",
+    "passwordLabel": "Senha Mestra",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "Telefone (Opcional)",
+    "phonePlaceholder": "+55 11 90000-0000",
+    "countryLabel": "País / Região",
+    "detectLocation": "Detectar Automaticamente",
+    "detecting": "Detectando...",
+    "privacyConsent": "Concordo com os termos de privacidade total e zero rastreamento",
+    "alreadyHaveAccount": "Já tem uma conta NEXUS?",
+    "dontHaveAccount": "Novo por aqui?",
+    "or": "OU",
+    "signingIn": "Autenticando...",
+    "signingUp": "Criando identidade...",
+    "signOut": "Sair"
+  },
+  "chat": {
+    "searchPlaceholder": "Pesquisar conversas...",
+    "online": "Online agora",
+    "offline": "Offline",
+    "typing": "digitando...",
+    "selfDestructActive": "Autodestruição Ativa",
+    "expiresIn": "Expira em {{time}}",
+    "keepForever": "Manter para Sempre",
+    "expire1h": "1 Hora",
+    "expire24h": "24 Horas",
+    "expire7d": "7 Dias",
+    "expirySelectTitle": "Expiração de Mensagem",
+    "expirySelectDesc": "As mensagens enviadas irão evaporar automaticamente após este período",
+    "typePlaceholder": "Digite uma mensagem criptografada...",
+    "send": "Enviar",
+    "burnNotice": "🔥 Autodestruição ativa. Mensagens evaporam no cliente.",
+    "viewMediaOnce": "Toque para ver (Visualização única)",
+    "mediaBurned": "Mídia destruída após visualização",
+    "newChat": "Nova Conversa",
+    "startCall": "Chamada",
+    "startVideo": "Vídeo"
+  },
+  "call": {
+    "voiceCall": "Chamada de Voz NEXUS",
+    "videoCall": "Chamada de Vídeo NEXUS",
+    "connecting": "Estabelecendo link P2P...",
+    "connected": "Sessão P2P Segura",
+    "callEnded": "Chamada Encerrada",
+    "incomingCall": "Chamada Recebida",
+    "accept": "Atender",
+    "decline": "Recusar",
+    "mute": "Mudo",
+    "unmute": "Ativar Microfone",
+    "videoOn": "Ligar Câmera",
+    "videoOff": "Desligar Câmera",
+    "flip": "Inverter Câmera",
+    "record": "Gravar Chamada",
+    "recording": "Gravando...",
+    "endCall": "Encerrar",
+    "recordingSaved": "Gravação salva com sucesso"
+  },
+  "settings": {
+    "languageSection": "Idioma e Direção",
+    "activeLanguage": "Idioma Atual",
+    "privacySection": "Privacidade e Segurança",
+    "p2pTitle": "Criptografia Ponto a Ponto (P2P)",
+    "p2pDesc": "Comunicação direta entre dispositivos com WebRTC",
+    "locationTitle": "Contexto de Localização",
+    "locationDesc": "Contexto de país/região para nós descentralizados",
+    "appearanceSection": "Estética do Sistema",
+    "theme": "Tema de Interface",
+    "themeFuturistic": "Cyber Violeta (Padrão)",
+    "accountSection": "Conta",
+    "aboutSection": "Sobre o NEXUS",
+    "version": "Versão 2.0.0 (Núcleo Descentralizado)",
+    "clearCache": "Limpar Cache Local"
+  },
+  "common": {
+    "comingSoon": "Em Breve",
+    "underConstruction": "Este recurso está em desenvolvimento. Aguarde!",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar Novamente",
+    "cancel": "Cancelar",
+    "save": "Salvar Alterações",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "share": "Compartilhar",
+    "like": "Curtir",
+    "comment": "Comentar",
+    "follow": "Seguir",
+    "unfollow": "Deixar de seguir",
+    "message": "Mensagem",
+    "viewAll": "Ver Tudo",
+    "seeMore": "Ver Mais",
+    "success": "Sucesso",
+    "copied": "Copiado para a área de transferência"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

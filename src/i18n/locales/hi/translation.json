@@ -1,0 +1,159 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "सीमाओं से परे जुड़ें"
+  },
+  "nav": {
+    "home": "होम",
+    "explore": "खोजें",
+    "reels": "रील्स",
+    "chat": "चैट",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स"
+  },
+  "topbar": {
+    "search": "NEXUS में खोजें...",
+    "notifications": "सूचनाएं",
+    "newPost": "बनाएं"
+  },
+  "pages": {
+    "home": {
+      "title": "आपकी फ़ीड",
+      "subtitle": "आपके पसंदीदा लोगों की कहानियां और पोस्ट"
+    },
+    "explore": {
+      "title": "अन्वेषण करें",
+      "subtitle": "ट्रेंडिंग सामग्री और नए लोगों को खोजें"
+    },
+    "reels": {
+      "title": "रील्स",
+      "subtitle": "खास आपके लिए छोटे वीडियो"
+    },
+    "chat": {
+      "title": "एन्क्रिप्टेड संदेश",
+      "subtitle": "स्वयं-नष्ट होने वाले पीयर-टू-पीयर संदेश"
+    },
+    "profile": {
+      "title": "प्रोफ़ाइल",
+      "subtitle": "आपकी पोस्ट, फॉलोअर्स और नेटवर्क"
+    },
+    "settings": {
+      "title": "सिस्टम सेटिंग्स",
+      "subtitle": "भाषा, गोपनीयता, सुरक्षा और प्राथमिकताएं"
+    }
+  },
+  "auth": {
+    "welcome": "NEXUS में आपका स्वागत है",
+    "tagline": "अगली पीढ़ी का विकेंद्रीकृत सोशल नेटवर्क",
+    "signIn": "साइन इन करें",
+    "signUp": "खाता बनाएं",
+    "guestLogin": "अतिथि के रूप में देखें",
+    "emailLabel": "ईमेल पता",
+    "emailPlaceholder": "user@nexus.io",
+    "passwordLabel": "मास्टर पासवर्ड",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "फ़ोन नंबर (वैकल्पिक)",
+    "phonePlaceholder": "+91 98765 43210",
+    "countryLabel": "देश / क्षेत्र",
+    "detectLocation": "स्वतः पता लगाएं",
+    "detecting": "पता लगा रहे हैं...",
+    "privacyConsent": "मैं शून्य-ट्रैकिंग और पूर्ण गोपनीयता शर्तों से सहमत हूँ",
+    "alreadyHaveAccount": "पहले से खाता है?",
+    "dontHaveAccount": "NEXUS में नए हैं?",
+    "or": "या",
+    "signingIn": "प्रमाणीकरण हो रहा है...",
+    "signingUp": "पहचान बनाई जा रही है...",
+    "signOut": "साइन आउट करें"
+  },
+  "chat": {
+    "searchPlaceholder": "बातचीत खोजें...",
+    "online": "सक्रिय",
+    "offline": "ऑफ़लाइन",
+    "typing": "टाइप कर रहे हैं...",
+    "selfDestructActive": "स्वयं-विनाश सक्रिय",
+    "expiresIn": "{{time}} में समाप्त",
+    "keepForever": "हमेशा रखें",
+    "expire1h": "1 घंटा",
+    "expire24h": "24 घंटे",
+    "expire7d": "7 दिन",
+    "expirySelectTitle": "संदेश समाप्ति समय",
+    "expirySelectDesc": "भेजे गए संदेश इस अवधि के बाद स्वतः मिट जाएंगे",
+    "typePlaceholder": "एन्क्रिप्टेड संदेश लिखें...",
+    "send": "भेजें",
+    "burnNotice": "🔥 स्वयं-विनाश सक्रिय है। संदेश क्लाइंट-साइड से गायब हो जाते हैं।",
+    "viewMediaOnce": "देखने के लिए टैप करें (केवल एक बार)",
+    "mediaBurned": "देखने के बाद मीडिया नष्ट हो गया",
+    "newChat": "नई बातचीत",
+    "startCall": "कॉल",
+    "startVideo": "वीडियो कॉल"
+  },
+  "call": {
+    "voiceCall": "NEXUS वॉइस कॉल",
+    "videoCall": "NEXUS वीडियो कॉल",
+    "connecting": "P2P लिंक स्थापित हो रहा है...",
+    "connected": "सुरक्षित P2P सत्र",
+    "callEnded": "कॉल समाप्त",
+    "incomingCall": "इनकमिंग कॉल",
+    "accept": "स्वीकार करें",
+    "decline": "अस्वीकार करें",
+    "mute": "म्यूट करें",
+    "unmute": "अनम्यूट करें",
+    "videoOn": "कैमरा चालू",
+    "videoOff": "कैमरा बंद",
+    "flip": "कैमरा बदलें",
+    "record": "कॉल रिकॉर्ड करें",
+    "recording": "रिकॉर्डिंग हो रही है...",
+    "endCall": "कॉल समाप्त करें",
+    "recordingSaved": "रिकॉर्डिंग सफलतापूर्वक डाउनलोड हो गई"
+  },
+  "settings": {
+    "languageSection": "भाषा और दिशा",
+    "activeLanguage": "सक्रिय भाषा",
+    "privacySection": "गोपनीयता और सुरक्षा",
+    "p2pTitle": "पीयर-टू-पीयर एन्क्रिप्शन (P2P)",
+    "p2pDesc": "WebRTC का उपयोग करके डिवाइस-टू-डिवाइस सीधा संचार",
+    "locationTitle": "स्थान संदर्भ",
+    "locationDesc": "क्षेत्रीय नोड्स के लिए देश/क्षेत्र संदर्भ",
+    "appearanceSection": "सिस्टम सौंदर्यशास्त्र",
+    "theme": "इंटरफ़ेस थीम",
+    "themeFuturistic": "साइबर वायलेट (डिफ़ॉल्ट)",
+    "accountSection": "खाता",
+    "aboutSection": "NEXUS के बारे में",
+    "version": "संस्करण 2.0.0 (विकेंद्रीकृत कोर)",
+    "clearCache": "स्थानीय कैश साफ़ करें"
+  },
+  "common": {
+    "comingSoon": "जल्द आ रहा है",
+    "underConstruction": "यह सुविधा तैयार की जा रही है। बने रहें!",
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हो गया",
+    "retry": "पुनः प्रयास करें",
+    "cancel": "रद्द करें",
+    "save": "बदलाव सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "share": "साझा करें",
+    "like": "पसंद",
+    "comment": "टिप्पणी",
+    "follow": "फॉलो करें",
+    "unfollow": "अनफॉलो करें",
+    "message": "संदेश",
+    "viewAll": "सभी देखें",
+    "seeMore": "और देखें",
+    "success": "सफल",
+    "copied": "क्लिपबोर्ड पर कॉपी किया गया"
+  },
+  "language": {
+    "label": "भाषा",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

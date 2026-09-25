@@ -1,0 +1,232 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "تواصل بلا حدود"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "explore": "استكشف",
+    "reels": "ريلز",
+    "chat": "المحادثات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات"
+  },
+  "topbar": {
+    "search": "بحث في NEXUS...",
+    "notifications": "الإشعارات",
+    "newPost": "إنشاء"
+  },
+  "pages": {
+    "home": {
+      "title": "خلاصتك",
+      "subtitle": "القصص والمنشورات من الأشخاص الذين تتابعهم"
+    },
+    "explore": {
+      "title": "استكشف",
+      "subtitle": "اكتشف المحتوى الرائج والأصدقاء الجدد"
+    },
+    "reels": {
+      "title": "ريلز",
+      "subtitle": "مقاطع فيديو قصيرة صُممت خصيصاً لك"
+    },
+    "chat": {
+      "title": "رسائل مشفرة",
+      "subtitle": "محادثات ذاتية التدمير ومباشرة بين النظراء"
+    },
+    "profile": {
+      "title": "الملف الشخصي",
+      "subtitle": "منشوراتك، المتابعون، وشبكتك"
+    },
+    "settings": {
+      "title": "إعدادات النظام",
+      "subtitle": "اللغة، الخصوصية، الأمان وتفضيلات التطبيق"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "subtitle": "الهوية العامة وعقدة الشبكة الخاصة",
+    "creatorMode": "الوضع العام / صانع المحتوى",
+    "creatorModeDesc": "خلاصة عامة، اسم مستخدم وشارة صناع المحتوى ظاهرة للشبكة",
+    "privateMode": "وضع التخفي الخاص",
+    "privateModeDesc": "عرض عقدة مشفرة ومقيدة، مخفي عن الخلاصة العامة",
+    "posts": "المنشورات",
+    "followers": "المتابعون",
+    "following": "المتابَعون",
+    "likes": "الإعجابات",
+    "bio": "السيرة الذاتية",
+    "editProfile": "تعديل الهوية",
+    "shareProfile": "مشاركة الملف الشخصي",
+    "publicLink": "الرابط العام",
+    "qrCode": "رمز الاستجابة السريعة",
+    "nodeId": "معرف العقدة",
+    "stealthActive": "🔒 وضع التخفي مفعّل — يمكن لجهات الاتصال المعتمدة فقط الاتصال بك",
+    "publicActive": "🌐 وضع صانع المحتوى مفعّل — الاكتشاف عبر الخلاصة العامة والريلز متاح"
+  },
+  "discovery": {
+    "title": "استكشف وتواصل",
+    "searchPlaceholder": "البحث بواسطة اسم المستخدم، رقم الهاتف، أو الاسم...",
+    "addByPhone": "إضافة عبر رقم الهاتف",
+    "addByUsername": "إضافة عبر اسم المستخدم",
+    "copyInviteLink": "نسخ الرابط المباشر",
+    "recommendedCreators": "صناع المحتوى المقترحون",
+    "noResults": "لم يتم العثور على عقد تطابق بحثك",
+    "follow": "متابعة",
+    "following": "متابَع",
+    "userFound": "عقدة موثوقة"
+  },
+  "watermark": {
+    "brandTagline": "NEXUS • تواصل بلا حدود",
+    "digitalSignature": "توقيع ويب3 المشفر"
+  },
+  "stories": {
+    "yourStory": "قصتك",
+    "addStory": "إضافة قصة",
+    "createStory": "إنشاء قصة (24 ساعة)",
+    "storyCaption": "أضف فكرة أو تعليقاً...",
+    "postStory": "مشاركة في القصة",
+    "posting": "جاري النشر...",
+    "expiresIn": "تنتهي خلال {{hours}} ساعة",
+    "replyPlaceholder": "أرسل رسالة...",
+    "viewers": "مشاهدات",
+    "activeStories": "القصص",
+    "tapToView": "انقر للمشاهدة",
+    "samplePreset": "اختر خلفية بصرية"
+  },
+  "reels": {
+    "title": "ريلز",
+    "subtitle": "مقاطع فيديو قصيرة ممتعة",
+    "forYou": "لك",
+    "following": "المتابَعون",
+    "follow": "متابعة",
+    "unfollow": "متابَع",
+    "like": "إعجاب",
+    "comment": "تعليق",
+    "share": "مشاركة",
+    "save": "حفظ",
+    "saved": "تم الحفظ",
+    "repost": "إعادة نشر",
+    "reposted": "تمت إعادة النشر في الخلاصة!",
+    "commentsTitle": "التعليقات",
+    "addComment": "أضف تعليقاً...",
+    "post": "نشر",
+    "shareTitle": "مشاركة الفيديو",
+    "copyLink": "نسخ الرابط",
+    "linkCopied": "تم نسخ الرابط للحافظة!",
+    "originalAudio": "الصوت الأصلي",
+    "tapToUnmute": "انقر لتشغيل الصوت"
+  },
+  "auth": {
+    "welcome": "مرحباً بك في NEXUS",
+    "tagline": "الجيل القادم من منصات التواصل اللامركزية",
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "guestLogin": "الدخول كضيف",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "user@nexus.io",
+    "passwordLabel": "كلمة المرور الرئيسية",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "رقم الهاتف (اختياري)",
+    "phonePlaceholder": "+966 50 000 0000",
+    "countryLabel": "الدولة / المنطقة",
+    "detectLocation": "تحديد تلقائي",
+    "detecting": "جاري التحديد...",
+    "privacyConsent": "أوافق على بنود الخصوصية التامة وعدم التتبع",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "dontHaveAccount": "مستخدم جديد؟",
+    "or": "أو",
+    "signingIn": "جاري المصادقة...",
+    "signingUp": "جاري إنشاء الهوية...",
+    "signOut": "تسجيل الخروج"
+  },
+  "chat": {
+    "searchPlaceholder": "البحث في المحادثات...",
+    "online": "متصل الآن",
+    "offline": "غير متصل",
+    "typing": "يكتب الآن...",
+    "selfDestructActive": "التدمير الذاتي مفعّل",
+    "expiresIn": "تنتهي خلال {{time}}",
+    "keepForever": "الاحتفاظ للأبد",
+    "expire1h": "ساعة واحدة",
+    "expire24h": "24 ساعة",
+    "expire7d": "7 أيام",
+    "expirySelectTitle": "وقت انتهاء الرسائل",
+    "expirySelectDesc": "الرسائل المرسلة ستتلاشى تلقائياً بعد هذه المدة",
+    "typePlaceholder": "اكتب رسالة مشفرة...",
+    "send": "إرسال",
+    "burnNotice": "🔥 ميزة التدمير الذاتي نشطة. تتلاشى الرسائل من طرف العميل.",
+    "viewMediaOnce": "انقر للكشف (مشاهدة لمرة واحدة)",
+    "mediaBurned": "تم إتلاف الوسائط بعد المشاهدة",
+    "newChat": "محادثة جديدة",
+    "startCall": "اتصال صوتي",
+    "startVideo": "اتصال مرئي"
+  },
+  "call": {
+    "voiceCall": "مكالمة صوتية NEXUS",
+    "videoCall": "مكالمة فيديو NEXUS",
+    "connecting": "جاري تأسيس الاتصال المباشر...",
+    "connected": "جلسة نظير إلى نظير آمنة",
+    "callEnded": "انتهت المكالمة",
+    "incomingCall": "مكالمة واردة",
+    "accept": "قبول",
+    "decline": "رفض",
+    "mute": "كتم الصوت",
+    "unmute": "إلغاء الكتم",
+    "videoOn": "تشغيل الكاميرا",
+    "videoOff": "إيقاف الكاميرا",
+    "flip": "تبديل الكاميرا",
+    "record": "تسجيل المكالمة",
+    "recording": "جاري التسجيل...",
+    "endCall": "إنهاء المكالمة",
+    "recordingSaved": "تم تحميل التسجيل بنجاح"
+  },
+  "settings": {
+    "languageSection": "اللغة والاتجاه",
+    "activeLanguage": "اللغة النشطة",
+    "privacySection": "الخصوصية والأمان",
+    "p2pTitle": "التشفير المباشر (P2P)",
+    "p2pDesc": "تواصل مباشر بين الأجهزة باستخدام تقنية WebRTC",
+    "locationTitle": "سياق الموقع",
+    "locationDesc": "تحديد الدولة/المنطقة للاتصال بالعقد الإقليمية",
+    "appearanceSection": "المظهر والنظام",
+    "theme": "سمة الواجهة",
+    "themeFuturistic": "النيون البنفسجي (افتراضي)",
+    "accountSection": "الحساب",
+    "aboutSection": "حول NEXUS",
+    "version": "الإصدار 2.0.0 (النواة اللامركزية)",
+    "clearCache": "مسح ذاكرة التخزين المؤقت"
+  },
+  "common": {
+    "comingSoon": "قريباً",
+    "underConstruction": "يجري بناء هذه الميزة. ترقبوا الجديد!",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "save": "حفظ التغييرات",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "share": "مشاركة",
+    "like": "إعجاب",
+    "comment": "تعليق",
+    "follow": "متابعة",
+    "unfollow": "إلغاء المتابعة",
+    "message": "رسالة",
+    "viewAll": "عرض الكل",
+    "seeMore": "المزيد",
+    "success": "تم بنجاح",
+    "copied": "تم النسخ إلى الحافظة"
+  },
+  "language": {
+    "label": "اللغة",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

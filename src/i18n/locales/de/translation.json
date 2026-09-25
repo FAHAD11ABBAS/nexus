@@ -1,0 +1,159 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "Verbinde dich über Grenzen hinweg"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Entdecken",
+    "reels": "Reels",
+    "chat": "Chat",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "topbar": {
+    "search": "In NEXUS suchen...",
+    "notifications": "Benachrichtigungen",
+    "newPost": "Erstellen"
+  },
+  "pages": {
+    "home": {
+      "title": "Dein Feed",
+      "subtitle": "Storys und Beiträge von Personen, denen du folgst"
+    },
+    "explore": {
+      "title": "Entdecken",
+      "subtitle": "Trends und neue Leute entdecken"
+    },
+    "reels": {
+      "title": "Reels",
+      "subtitle": "Kurzvideos speziell für dich"
+    },
+    "chat": {
+      "title": "Verschlüsselte Chats",
+      "subtitle": "Selbstzerstörende Peer-to-Peer-Nachrichten"
+    },
+    "profile": {
+      "title": "Profil",
+      "subtitle": "Deine Beiträge, Follower und Kontakte"
+    },
+    "settings": {
+      "title": "Systemeinstellungen",
+      "subtitle": "Sprache, Privatsphäre, Sicherheit & Optionen"
+    }
+  },
+  "auth": {
+    "welcome": "Willkommen bei NEXUS",
+    "tagline": "Das dezentrale soziale Netzwerk der nächsten Generation",
+    "signIn": "Anmelden",
+    "signUp": "Konto erstellen",
+    "guestLogin": "Als Gast testen",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "benutzer@nexus.io",
+    "passwordLabel": "Hauptpasswort",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "Telefonnummer (Optional)",
+    "phonePlaceholder": "+49 151 0000000",
+    "countryLabel": "Land / Region",
+    "detectLocation": "Automatisch erkennen",
+    "detecting": "Wird ermittelt...",
+    "privacyConsent": "Ich stimme den Null-Tracking- und Datenschutzrichtlinien zu",
+    "alreadyHaveAccount": "Bereits registriert?",
+    "dontHaveAccount": "Neu bei NEXUS?",
+    "or": "ODER",
+    "signingIn": "Authentifizierung...",
+    "signingUp": "Identität wird erstellt...",
+    "signOut": "Abmelden"
+  },
+  "chat": {
+    "searchPlaceholder": "Chats durchsuchen...",
+    "online": "Jetzt aktiv",
+    "offline": "Offline",
+    "typing": "tippt...",
+    "selfDestructActive": "Selbstzerstörung aktiv",
+    "expiresIn": "Läuft ab in {{time}}",
+    "keepForever": "Dauerhaft behalten",
+    "expire1h": "1 Stunde",
+    "expire24h": "24 Stunden",
+    "expire7d": "7 Tage",
+    "expirySelectTitle": "Nachrichten-Ablauf",
+    "expirySelectDesc": "Gesendete Nachrichten verflüchtigen sich automatisch nach dieser Frist",
+    "typePlaceholder": "Verschlüsselte Nachricht eingeben...",
+    "send": "Senden",
+    "burnNotice": "🔥 Selbstzerstörung aktiv. Nachrichten verflüchtigen sich clientseitig.",
+    "viewMediaOnce": "Tippen zum Ansehen (Einmalige Ansicht)",
+    "mediaBurned": "Medium nach Betrachtung vernichtet",
+    "newChat": "Neuer Chat",
+    "startCall": "Anruf",
+    "startVideo": "Video"
+  },
+  "call": {
+    "voiceCall": "NEXUS Sprachanruf",
+    "videoCall": "NEXUS Videoanruf",
+    "connecting": "P2P-Verbindung wird aufgebaut...",
+    "connected": "Gesicherte P2P-Sitzung",
+    "callEnded": "Anruf beendet",
+    "incomingCall": "Eingehender Anruf",
+    "accept": "Annehmen",
+    "decline": "Ablehnen",
+    "mute": "Stumm",
+    "unmute": "Mikrofon an",
+    "videoOn": "Kamera an",
+    "videoOff": "Kamera aus",
+    "flip": "Kamera wechseln",
+    "record": "Anruf aufzeichnen",
+    "recording": "Aufnahme läuft...",
+    "endCall": "Auflegen",
+    "recordingSaved": "Aufnahme erfolgreich heruntergeladen"
+  },
+  "settings": {
+    "languageSection": "Sprache & Ausrichtung",
+    "activeLanguage": "Aktive Sprache",
+    "privacySection": "Datenschutz & Sicherheit",
+    "p2pTitle": "Peer-to-Peer-Verschlüsselung",
+    "p2pDesc": "Direkte Geräte-zu-Geräte-Kommunikation mit WebRTC",
+    "locationTitle": "Standortkontext",
+    "locationDesc": "Länder-/Regionskontext für regionale Knoten",
+    "appearanceSection": "System-Ästhetik",
+    "theme": "Design-Design",
+    "themeFuturistic": "Cyber Violet (Standard)",
+    "accountSection": "Konto",
+    "aboutSection": "Über NEXUS",
+    "version": "Version 2.0.0 (Dezentraler Kern)",
+    "clearCache": "Lokalen Cache leeren"
+  },
+  "common": {
+    "comingSoon": "Demnächst",
+    "underConstruction": "Diese Funktion wird derzeit entwickelt. Bleib dran!",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Wiederholen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "share": "Teilen",
+    "like": "Gefällt mir",
+    "comment": "Kommentieren",
+    "follow": "Folgen",
+    "unfollow": "Entfolgen",
+    "message": "Nachricht",
+    "viewAll": "Alle ansehen",
+    "seeMore": "Mehr sehen",
+    "success": "Erfolgreich",
+    "copied": "In Zwischenablage kopiert"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

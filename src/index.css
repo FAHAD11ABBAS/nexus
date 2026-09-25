@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ──────────────────────────────────────────
+   NEXUS Global CSS — Design Tokens & Utilities
+   ────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    --nexus-bg:        #0a0a12;
+    --nexus-surface:   #12121e;
+    --nexus-card:      #1a1a2e;
+    --nexus-border:    #2a2a45;
+    --nexus-primary:   #7c3aed;
+    --nexus-secondary: #a855f7;
+    --nexus-accent:    #e879f9;
+    --nexus-cyan:      #22d3ee;
+    --nexus-gold:      #fbbf24;
+    --nexus-text:      #e2e8f0;
+    --nexus-muted:     #94a3b8;
+    --nexus-dim:       #475569;
+
+    /* Layout heights */
+    --topbar-h:  64px;
+    --bottomnav-h: 72px;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--nexus-bg);
+    color: var(--nexus-text);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Arabic / RTL: swap to Cairo font */
+  :lang(ar) body,
+  [dir='rtl'] body,
+  [dir='rtl'] {
+    font-family: 'Cairo', sans-serif;
+  }
+
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ──────────────────────────────────────────
+   Glassmorphism helpers
+   ────────────────────────────────────────── */
+@layer components {
+  .glass {
+    background: rgba(26, 26, 46, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .glass-dark {
+    background: rgba(10, 10, 18, 0.85);
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  .glass-card {
+    background: linear-gradient(
+      135deg,
+      rgba(26, 26, 46, 0.9) 0%,
+      rgba(18, 18, 30, 0.95) 100%
+    );
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(124, 58, 237, 0.15);
+    border-radius: 1.25rem;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    background: linear-gradient(135deg, #7c3aed, #a855f7, #e879f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-cyan {
+    background: linear-gradient(135deg, #22d3ee, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Neon glow border */
+  .border-glow {
+    border: 1px solid rgba(124, 58, 237, 0.4);
+    box-shadow: 0 0 12px rgba(124, 58, 237, 0.2), inset 0 0 12px rgba(124, 58, 237, 0.05);
+  }
+
+  .border-glow-cyan {
+    border: 1px solid rgba(34, 211, 238, 0.4);
+    box-shadow: 0 0 12px rgba(34, 211, 238, 0.2), inset 0 0 12px rgba(34, 211, 238, 0.05);
+  }
+
+  /* Pill badge */
+  .badge {
+    @apply inline-flex items-center justify-center rounded-full text-xs font-semibold px-2 py-0.5;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+  }
+
+  /* Animated skeleton loader */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--nexus-surface) 25%,
+      var(--nexus-card) 50%,
+      var(--nexus-surface) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2.5s linear infinite;
+  }
+}
+
+/* ──────────────────────────────────────────
+   Custom Scrollbar
+   ────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--nexus-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nexus-border);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--nexus-primary);
+}
+
+/* ──────────────────────────────────────────
+   RTL utilities
+   ────────────────────────────────────────── */
+[dir='rtl'] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+[dir='rtl'] .rtl-space-reverse > * + * {
+  margin-left: 0;
+  margin-right: inherit;
+}
+
+/* Ensure lucide icons don't flip on RTL */
+[dir='rtl'] svg.no-flip {
+  transform: none;
+}
+
+/* ──────────────────────────────────────────
+   Page transition
+   ────────────────────────────────────────── */
+.page-enter {
+  animation: fade-in 0.35s ease-out both;
+}
+
+/* ──────────────────────────────────────────
+   Ambient background orbs
+   ────────────────────────────────────────── */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb-primary {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.18) 0%, transparent 70%);
+}
+
+.orb-accent {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(232, 121, 249, 0.12) 0%, transparent 70%);
+}
+
+.orb-cyan {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.1) 0%, transparent 70%);
+}

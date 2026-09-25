@@ -1,0 +1,48 @@
+{
+  "app": {
+    "title": "NEXUS Super App",
+    "subtitle": "Universo Digitale Client-Side Decentralizzato"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Esplora",
+    "reels": "Reels",
+    "chat": "Chat Encrypted",
+    "profile": "Profilo",
+    "settings": "Impostazioni"
+  },
+  "topbar": {
+    "notifications": "Notifiche",
+    "wallet": "Portafoglio Web3",
+    "ghost": "Modalità Ghost Active",
+    "aiStudio": "NEXUS AI Studio"
+  },
+  "language": {
+    "label": "Seleziona Lingua",
+    "english": "Inglese",
+    "arabic": "Arabo (Iraq 🇮🇶)",
+    "spanish": "Spagnolo",
+    "french": "Francese",
+    "chinese": "Cinese",
+    "german": "Tedesco",
+    "japanese": "Giapponese",
+    "portuguese": "Portoghese",
+    "russian": "Russo",
+    "hindi": "Hindi",
+    "italian": "Italiano"
+  },
+  "ai": {
+    "title": "NEXUS AI Studio Poly-Engine",
+    "subtitle": "IA Client-Side Autonoma & Vault BYOK",
+    "codingTab": "🧑‍💻 Coding Autonomo",
+    "reasoningTab": "🧠 Ragionamento Socratico",
+    "creativeTab": "🎨 Studio Creativo & Prompts",
+    "keysTab": "🔑 BYOK Key Vault",
+    "placeholder": "Chiedi all'IA o genera codice HTML/React/PHP..."
+  },
+  "chat": {
+    "title": "Messaggistica Crittografata NEXUS",
+    "subtitle": "Zero-trace, canali Telegram e chat anonime",
+    "searchPlaceholder": "Cerca conversazioni..."
+  }
+}

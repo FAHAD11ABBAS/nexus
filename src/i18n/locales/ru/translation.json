@@ -1,0 +1,159 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "Связь за гранью возможностей"
+  },
+  "nav": {
+    "home": "Главная",
+    "explore": "Обзор",
+    "reels": "Клипы",
+    "chat": "Чаты",
+    "profile": "Профиль",
+    "settings": "Настройки"
+  },
+  "topbar": {
+    "search": "Поиск в NEXUS...",
+    "notifications": "Уведомления",
+    "newPost": "Создать"
+  },
+  "pages": {
+    "home": {
+      "title": "Ваша лента",
+      "subtitle": "Истории и публикации ваших подписок"
+    },
+    "explore": {
+      "title": "Обзор",
+      "subtitle": "Тренды и новые знакомства"
+    },
+    "reels": {
+      "title": "Клипы",
+      "subtitle": "Короткие видео специально для вас"
+    },
+    "chat": {
+      "title": "Шифрованные чаты",
+      "subtitle": "Самоуничтожающиеся сообщения peer-to-peer"
+    },
+    "profile": {
+      "title": "Профиль",
+      "subtitle": "Ваши записи, подписчики и сеть"
+    },
+    "settings": {
+      "title": "Настройки системы",
+      "subtitle": "Язык, приватность, безопасность и персонализация"
+    }
+  },
+  "auth": {
+    "welcome": "Добро пожаловать в NEXUS",
+    "tagline": "Децентрализованная соцсеть нового поколения",
+    "signIn": "Войти",
+    "signUp": "Создать аккаунт",
+    "guestLogin": "Войти как гость",
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "user@nexus.io",
+    "passwordLabel": "Мастер-пароль",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "Номер телефона (необязательно)",
+    "phonePlaceholder": "+7 900 000-00-00",
+    "countryLabel": "Страна / Регион",
+    "detectLocation": "Определить",
+    "detecting": "Определение...",
+    "privacyConsent": "Я согласен с условиями нулевого отслеживания и приватности",
+    "alreadyHaveAccount": "Уже есть NEXUS ID?",
+    "dontHaveAccount": "Впервые в NEXUS?",
+    "or": "ИЛИ",
+    "signingIn": "Аутентификация...",
+    "signingUp": "Создание профиля...",
+    "signOut": "Выйти"
+  },
+  "chat": {
+    "searchPlaceholder": "Поиск бесед...",
+    "online": "В сети",
+    "offline": "Не в сети",
+    "typing": "печатает...",
+    "selfDestructActive": "Самоуничтожение активно",
+    "expiresIn": "Исчезнет через {{time}}",
+    "keepForever": "Хранить бессрочно",
+    "expire1h": "1 час",
+    "expire24h": "24 часа",
+    "expire7d": "7 дней",
+    "expirySelectTitle": "Срок действия сообщений",
+    "expirySelectDesc": "Отправленные сообщения автоматически испарятся после этого времени",
+    "typePlaceholder": "Зашифрованное сообщение...",
+    "send": "Отправить",
+    "burnNotice": "🔥 Самоуничтожение включено. Сообщения удаляются на клиенте.",
+    "viewMediaOnce": "Нажмите для просмотра (Однократно)",
+    "mediaBurned": "Медиафайл уничтожен после просмотра",
+    "newChat": "Новый чат",
+    "startCall": "Звонок",
+    "startVideo": "Видео"
+  },
+  "call": {
+    "voiceCall": "Голосовой звонок NEXUS",
+    "videoCall": "Видеозвонок NEXUS",
+    "connecting": "Установка соединения P2P...",
+    "connected": "Защищенный P2P-канал",
+    "callEnded": "Звонок завершен",
+    "incomingCall": "Входящий вызов",
+    "accept": "Ответить",
+    "decline": "Отклонить",
+    "mute": "Без звука",
+    "unmute": "Вкл. микрофон",
+    "videoOn": "Вкл. камеру",
+    "videoOff": "Выкл. камеру",
+    "flip": "Сменить камеру",
+    "record": "Запись звонка",
+    "recording": "Идет запись...",
+    "endCall": "Завершить",
+    "recordingSaved": "Запись успешно сохранена"
+  },
+  "settings": {
+    "languageSection": "Язык и направление текста",
+    "activeLanguage": "Текущий язык",
+    "privacySection": "Конфиденциальность и безопасность",
+    "p2pTitle": "Прямое шифрование (P2P)",
+    "p2pDesc": "Связь между устройствами напрямую по WebRTC",
+    "locationTitle": "Региональный контекст",
+    "locationDesc": "Определение региона для ближайших сетевых узлов",
+    "appearanceSection": "Внешний вид",
+    "theme": "Тема интерфейса",
+    "themeFuturistic": "Кибер-фиолетовый (По умолчанию)",
+    "accountSection": "Учетная запись",
+    "aboutSection": "О NEXUS",
+    "version": "Версия 2.0.0 (Децентрализованное ядро)",
+    "clearCache": "Очистить локальный кэш"
+  },
+  "common": {
+    "comingSoon": "Скоро",
+    "underConstruction": "Раздел находится в активной разработке!",
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "retry": "Повторить",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "share": "Поделиться",
+    "like": "Нравится",
+    "comment": "Комментарий",
+    "follow": "Подписаться",
+    "unfollow": "Отписаться",
+    "message": "Написать",
+    "viewAll": "Все",
+    "seeMore": "Подробнее",
+    "success": "Успешно",
+    "copied": "Скопировано в буфер"
+  },
+  "language": {
+    "label": "Язык",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}

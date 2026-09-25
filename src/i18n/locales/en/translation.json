@@ -1,0 +1,232 @@
+{
+  "app": {
+    "name": "NEXUS",
+    "tagline": "Connect Beyond Limits"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "reels": "Reels",
+    "chat": "Chat",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "topbar": {
+    "search": "Search NEXUS...",
+    "notifications": "Notifications",
+    "newPost": "Create"
+  },
+  "pages": {
+    "home": {
+      "title": "Your Feed",
+      "subtitle": "Stories and posts from people you follow"
+    },
+    "explore": {
+      "title": "Explore",
+      "subtitle": "Discover trending content and new people"
+    },
+    "reels": {
+      "title": "Reels",
+      "subtitle": "Short videos made for you"
+    },
+    "chat": {
+      "title": "Encrypted Messages",
+      "subtitle": "Self-destructing and peer-to-peer conversations"
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Your posts, followers, and network"
+    },
+    "settings": {
+      "title": "System Settings",
+      "subtitle": "Language, privacy, security & app preferences"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Public identity & private network node",
+    "creatorMode": "Public / Creator Mode",
+    "creatorModeDesc": "Public feed, handle & creator badge visible to network",
+    "privateMode": "Private Stealth Mode",
+    "privateModeDesc": "Restricted encrypted node view, hidden from public feed",
+    "posts": "Posts",
+    "followers": "Followers",
+    "following": "Following",
+    "likes": "Likes",
+    "bio": "Bio",
+    "editProfile": "Edit Identity",
+    "shareProfile": "Share Profile",
+    "publicLink": "Public Link",
+    "qrCode": "QR Code",
+    "nodeId": "Node ID",
+    "stealthActive": "🔒 Stealth Privacy Active — Only approved contacts can connect",
+    "publicActive": "🌐 Creator Mode Active — Public feed & reels discovery enabled"
+  },
+  "discovery": {
+    "title": "Discover & Connect",
+    "searchPlaceholder": "Search by @username, phone, or name...",
+    "addByPhone": "Add via Phone Number",
+    "addByUsername": "Add via Handle",
+    "copyInviteLink": "Copy Direct Link",
+    "recommendedCreators": "Recommended Creators",
+    "noResults": "No nodes match your search query",
+    "follow": "Follow",
+    "following": "Following",
+    "userFound": "Node Verified"
+  },
+  "watermark": {
+    "brandTagline": "NEXUS • Connect Beyond Limits",
+    "digitalSignature": "Encrypted Web3 Signature"
+  },
+  "stories": {
+    "yourStory": "Your Story",
+    "addStory": "Add Story",
+    "createStory": "Create 24h Story",
+    "storyCaption": "Add a thought or caption...",
+    "postStory": "Share to Story",
+    "posting": "Sharing...",
+    "expiresIn": "Expires in {{hours}}h",
+    "replyPlaceholder": "Send message...",
+    "viewers": "Views",
+    "activeStories": "Stories",
+    "tapToView": "Tap to view",
+    "samplePreset": "Pick a visual vibe"
+  },
+  "reels": {
+    "title": "Reels",
+    "subtitle": "Immersive short videos",
+    "forYou": "For You",
+    "following": "Following",
+    "follow": "Follow",
+    "unfollow": "Following",
+    "like": "Like",
+    "comment": "Comment",
+    "share": "Share",
+    "save": "Save",
+    "saved": "Saved",
+    "repost": "Repost",
+    "reposted": "Reposted to feed!",
+    "commentsTitle": "Comments",
+    "addComment": "Add a comment...",
+    "post": "Post",
+    "shareTitle": "Share Reel",
+    "copyLink": "Copy Link",
+    "linkCopied": "Reel link copied to clipboard!",
+    "originalAudio": "Original Audio",
+    "tapToUnmute": "Tap for sound"
+  },
+  "auth": {
+    "welcome": "Welcome to NEXUS",
+    "tagline": "Next-generation decentralized social network",
+    "signIn": "Sign In",
+    "signUp": "Create Account",
+    "guestLogin": "Explore as Guest",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "user@nexus.io",
+    "passwordLabel": "Master Password",
+    "passwordPlaceholder": "••••••••••••",
+    "phoneLabel": "Phone Number (Optional)",
+    "phonePlaceholder": "+1 (555) 000-0000",
+    "countryLabel": "Country / Region",
+    "detectLocation": "Auto-Detect",
+    "detecting": "Detecting...",
+    "privacyConsent": "I agree to privacy-first, zero-tracking terms",
+    "alreadyHaveAccount": "Already have a NEXUS ID?",
+    "dontHaveAccount": "New to NEXUS?",
+    "or": "OR",
+    "signingIn": "Authenticating...",
+    "signingUp": "Creating identity...",
+    "signOut": "Sign Out"
+  },
+  "chat": {
+    "searchPlaceholder": "Search conversations...",
+    "online": "Active Now",
+    "offline": "Offline",
+    "typing": "typing...",
+    "selfDestructActive": "Self-Destruct Active",
+    "expiresIn": "Expires in {{time}}",
+    "keepForever": "Keep Forever",
+    "expire1h": "1 Hour",
+    "expire24h": "24 Hours",
+    "expire7d": "7 Days",
+    "expirySelectTitle": "Message Expiration",
+    "expirySelectDesc": "Messages sent will automatically evaporate after this duration",
+    "typePlaceholder": "Type encrypted message...",
+    "send": "Send",
+    "burnNotice": "🔥 Self-destruct enabled. Messages evaporate client-side.",
+    "viewMediaOnce": "Tap to reveal (One-time view)",
+    "mediaBurned": "Media destroyed after viewing",
+    "newChat": "New Chat",
+    "startCall": "Call",
+    "startVideo": "Video"
+  },
+  "call": {
+    "voiceCall": "NEXUS Voice Call",
+    "videoCall": "NEXUS Video Call",
+    "connecting": "Establishing P2P link...",
+    "connected": "Secured P2P Session",
+    "callEnded": "Call Ended",
+    "incomingCall": "Incoming Call",
+    "accept": "Accept",
+    "decline": "Decline",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "videoOn": "Camera On",
+    "videoOff": "Camera Off",
+    "flip": "Flip Camera",
+    "record": "Record Call",
+    "recording": "Recording...",
+    "endCall": "End Call",
+    "recordingSaved": "Recording downloaded successfully"
+  },
+  "settings": {
+    "languageSection": "Language & Direction",
+    "activeLanguage": "Active Language",
+    "privacySection": "Privacy & Security",
+    "p2pTitle": "Peer-to-Peer Encryption",
+    "p2pDesc": "Direct device-to-device communication using WebRTC",
+    "locationTitle": "Location Context",
+    "locationDesc": "Country/region context for regional nodes",
+    "appearanceSection": "System Aesthetics",
+    "theme": "Interface Theme",
+    "themeFuturistic": "Cyber Violet (Default)",
+    "accountSection": "Account",
+    "aboutSection": "About NEXUS",
+    "version": "Version 2.0.0 (Decentralized Core)",
+    "clearCache": "Clear Local Cache"
+  },
+  "common": {
+    "comingSoon": "Coming Soon",
+    "underConstruction": "This feature is being built. Stay tuned!",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "like": "Like",
+    "comment": "Comment",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "message": "Message",
+    "viewAll": "View All",
+    "seeMore": "See More",
+    "success": "Success",
+    "copied": "Copied to clipboard"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ar": "العربية",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "中文 (简体)",
+    "de": "Deutsch",
+    "ja": "日本語",
+    "pt": "Português",
+    "ru": "Русский",
+    "hi": "हिन्दी"
+  }
+}
