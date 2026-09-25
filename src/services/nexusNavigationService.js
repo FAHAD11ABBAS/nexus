@@ -2,19 +2,19 @@
 // NEXUS Navigation & Real-World Intelligence — NEXOS Maps, Wi-Fi/Satellite Finder, Food & Events (zero-cost client-side)
 
 export const DEFAULT_MAP_LOCATIONS = [
-  { id: 'loc-1', name: 'Baghdad Science & Tech Hub', lat: 33.3152, lng: 44.3661, category: 'Hub', country: 'Iraq 🇮🇶' },
-  { id: 'loc-2', name: 'Neo Tokyo Interplanetary Terminal', lat: 35.6762, lng: 139.6503, category: 'Terminal', country: 'Japan 🇯🇵' },
-  { id: 'loc-3', name: 'Dubai Web3 Quantum Node', lat: 25.2048, lng: 55.2708, category: 'Node', country: 'UAE 🇦🇪' },
+  { id: 'loc-1', name: 'Global Science & Tech Hub', lat: 46.2044, lng: 6.1432, category: 'Hub', country: 'Global Node • Alpha' },
+  { id: 'loc-2', name: 'Neo Tokyo Interplanetary Terminal', lat: 35.6762, lng: 139.6503, category: 'Terminal', country: 'East Asia Node • Beta' },
+  { id: 'loc-3', name: 'Global Quantum Data Center', lat: 37.7749, lng: -122.4194, category: 'Node', country: 'Americas Node • Gamma' },
 ];
 
 export const DEFAULT_RESTAURANTS = [
-  { id: 'r-1', name: 'Al-Safa Traditional Iraqi Grill', cuisine: 'Iraqi / Middle Eastern', rating: '4.9 ★', location: 'Baghdad, Iraq 🇮🇶', signature: 'Masgouf & Biryani' },
-  { id: 'r-2', name: 'Cyber Neon Ramen Lab', cuisine: 'Japanese Cyberpunk', rating: '4.8 ★', location: 'Shinjuku, Tokyo 🇯🇵', signature: 'Tonkotsu Quantum Broth' },
+  { id: 'r-1', name: 'Cosmic Artisanal Bistro', cuisine: 'International Fusion', rating: '4.9 ★', location: 'Metropolis Plaza', signature: 'Gourmet Truffle & Ancient Grains' },
+  { id: 'r-2', name: 'Cyber Neon Ramen Lab', cuisine: 'Japanese Cyberpunk', rating: '4.8 ★', location: 'Tokyo Central', signature: 'Tonkotsu Quantum Broth' },
 ];
 
 export const DEFAULT_EVENTS = [
   { id: 'e-1', title: 'Global Open-Core Singularity Hackathon', date: '2026-10-15', location: 'Virtual P2P Mesh Stage', status: 'Open Registration' },
-  { id: 'e-2', title: 'Hadith & Epistemology Symposium', date: '2026-10-20', location: 'Baghdad Cultural Center', status: 'Seats Available' },
+  { id: 'e-2', title: 'Decentralized Epistemology Symposium', date: '2026-10-20', location: 'Global Cultural Forum', status: 'Seats Available' },
 ];
 
 class NexusNavigationService {

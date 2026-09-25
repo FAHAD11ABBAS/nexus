@@ -1,5 +1,5 @@
 // src/i18n/index.js
-// i18next configuration with browser language detection, Iraqi Arabic flag correction, and full RTL/LTR support
+// i18next configuration with browser language detection and full RTL/LTR support
 
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
@@ -21,19 +21,19 @@ import itTranslation from './locales/it/translation.json';
 /** Languages that use RTL text direction */
 export const RTL_LANGUAGES = ['ar', 'he', 'fa', 'ur'];
 
-/** Supported languages metadata with explicit Iraqi Flag for Arabic (ar) */
+/** Supported languages metadata */
 export const SUPPORTED_LANGUAGES = [
-  { code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸', dir: 'ltr' },
-  { code: 'ar', name: 'Arabic', nativeName: 'العربية (العراق)', flag: '🇮🇶', dir: 'rtl' },
-  { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸', dir: 'ltr' },
-  { code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷', dir: 'ltr' },
-  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪', dir: 'ltr' },
-  { code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹', dir: 'ltr' },
-  { code: 'zh', name: 'Chinese', nativeName: '中文 (简体)', flag: '🇨🇳', dir: 'ltr' },
-  { code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵', dir: 'ltr' },
-  { code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇧🇷', dir: 'ltr' },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺', dir: 'ltr' },
-  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳', dir: 'ltr' },
+  { code: 'en', name: 'English', nativeName: 'English', flag: '🌐', dir: 'ltr' },
+  { code: 'ar', name: 'Arabic', nativeName: 'العربية', flag: '🌐', dir: 'rtl' },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🌐', dir: 'ltr' },
+  { code: 'fr', name: 'French', nativeName: 'Français', flag: '🌐', dir: 'ltr' },
+  { code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🌐', dir: 'ltr' },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🌐', dir: 'ltr' },
+  { code: 'zh', name: 'Chinese', nativeName: '中文 (简体)', flag: '🌐', dir: 'ltr' },
+  { code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🌐', dir: 'ltr' },
+  { code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🌐', dir: 'ltr' },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🌐', dir: 'ltr' },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', flag: '🌐', dir: 'ltr' },
 ];
 
 /** Returns 'rtl' or 'ltr' for a given language code */

@@ -4,7 +4,7 @@
 const TRAVEL_KEY = 'nexus_travel_v1';
 
 const WORLD_CITIES = [
-  { id: 'c1', name: 'Baghdad', country: 'Iraq', flag: '🇮🇶', lat: 33.31, lng: 44.37, tz: 'GMT+3', pop: '8.1M' },
+  { id: 'c1', name: 'Geneva', country: 'Switzerland', flag: '🇨🇭', lat: 46.20, lng: 6.14, tz: 'GMT+1', pop: '0.5M' },
   { id: 'c2', name: 'New York', country: 'USA', flag: '🇺🇸', lat: 40.71, lng: -74.01, tz: 'GMT-5', pop: '8.3M' },
   { id: 'c3', name: 'London', country: 'UK', flag: '🇬🇧', lat: 51.51, lng: -0.13, tz: 'GMT+0', pop: '9.0M' },
   { id: 'c4', name: 'Tokyo', country: 'Japan', flag: '🇯🇵', lat: 35.68, lng: 139.69, tz: 'GMT+9', pop: '13.9M' },
@@ -23,7 +23,7 @@ const WORLD_CITIES = [
   { id: 'c17', name: 'Toronto', country: 'Canada', flag: '🇨🇦', lat: 43.65, lng: -79.38, tz: 'GMT-5', pop: '2.9M' },
   { id: 'c18', name: 'Riyadh', country: 'Saudi Arabia', flag: '🇸🇦', lat: 24.71, lng: 46.68, tz: 'GMT+3', pop: '7.7M' },
   { id: 'c19', name: 'Singapore', country: 'Singapore', flag: '🇸🇬', lat: 1.35, lng: 103.82, tz: 'GMT+8', pop: '5.9M' },
-  { id: 'c20', name: 'Erbil', country: 'Iraq', flag: '🇮🇶', lat: 36.19, lng: 44.01, tz: 'GMT+3', pop: '1.5M' },
+  { id: 'c20', name: 'Zurich', country: 'Switzerland', flag: '🇨🇭', lat: 47.37, lng: 8.54, tz: 'GMT+1', pop: '0.4M' },
 ];
 
 const WEATHER_CONDITIONS = ['☀️ Sunny', '⛅ Partly Cloudy', '☁️ Cloudy', '🌧️ Rain', '⛈️ Thunderstorm', '🌤️ Clear', '🌫️ Foggy', '❄️ Snow', '🌪️ Windy'];

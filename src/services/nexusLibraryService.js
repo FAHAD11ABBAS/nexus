@@ -4,12 +4,12 @@
 export const DEFAULT_LIBRARY_BOOKS = [
   {
     id: 'book-101',
-    title: 'تاريخ العراق الحضاري والفلسفي (Civilizational History of Iraq)',
-    author: 'علامة الآثار والتاريخ (Archaeology Archives)',
+    title: 'تاريخ الفلسفة والحضارات القديمة (Ancient Philosophy & Civilizations)',
+    author: 'أرشيف العلوم الإنسانية (Humanities Archives)',
     language: 'ar',
-    flag: '🇮🇶',
+    flag: '📚',
     category: 'history',
-    description: 'دراسة شاملة لحضارات وادي الرافدين (سومر، بابل، وأشور) والإسهامات العلمية في بغداد.',
+    description: 'دراسة شاملة لنشأة الفلسفة والعلوم الإنسانية في العالم القديم والإسهامات العلمية العالمية.',
     content: `بسم الله الرحمن الرحيم
 
 تعتبر أرض وادي الرافدين مهد الحضارات الإنسانية، حيث ابتكر السومريون الكتابة المسمارية في الألفية الرابعة قبل الميلاد.

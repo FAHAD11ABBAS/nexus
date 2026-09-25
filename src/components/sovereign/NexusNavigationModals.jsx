@@ -84,7 +84,7 @@ export default function NexusNavigationModals({ isOpen, onClose, initialTab = 'm
               <div className="text-center space-y-1 relative z-10">
                 <span className="text-4xl">📡</span>
                 <p className="text-xs font-bold text-emerald-400 font-mono">Live Satellite Orbit GPS Layer Active</p>
-                <p className="text-[10px] text-slate-400">Lat: 33.3152° N · Lng: 44.3661° E (Baghdad, Iraq 🇮🇶)</p>
+                <p className="text-[10px] text-slate-400">Global Coordinate Reference: 46.2044° N · 6.1432° E (Global Node • Alpha)</p>
               </div>
             </div>
 
