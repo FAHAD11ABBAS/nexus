@@ -26,7 +26,7 @@ export const DEFAULT_SUBTITLED_MOVIES = [
   {
     id: 'mov-1',
     title: 'Hadith of the Stars: Interstellar Odyssey',
-    subtitles: ['Arabic 🇮🇶', 'English 🇺🇸', 'French 🇫🇷'],
+    subtitles: ['Arabic', 'English', 'French', 'Spanish'],
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
     rating: '4.9 ★',
     year: '2026',

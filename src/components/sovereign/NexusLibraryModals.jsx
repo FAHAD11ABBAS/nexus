@@ -66,7 +66,7 @@ export default function NexusLibraryModals({ isOpen, onClose }) {
                     selectedLang === lang ? 'bg-emerald-500 text-slate-950 font-extrabold' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
-                  {lang === 'ar' ? 'العربية 🇮🇶' : lang === 'en' ? 'English 🇺🇸' : 'All Languages'}
+                  {lang === 'ar' ? 'العربية' : lang === 'en' ? 'English' : 'All Languages'}
                 </button>
               ))}
             </div>

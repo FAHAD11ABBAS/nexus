@@ -4,22 +4,22 @@
 const FINANCE_KEY = 'nexus_finance_v1';
 
 const CURRENCIES = [
-  { code: 'USD', name: 'US Dollar', symbol: '$', flag: '🇺🇸' },
-  { code: 'EUR', name: 'Euro', symbol: '€', flag: '🇪🇺' },
-  { code: 'GBP', name: 'British Pound', symbol: '£', flag: '🇬🇧' },
-  { code: 'IQD', name: 'Iraqi Dinar', symbol: 'د.ع', flag: '🇮🇶' },
-  { code: 'JPY', name: 'Japanese Yen', symbol: '¥', flag: '🇯🇵' },
-  { code: 'CNY', name: 'Chinese Yuan', symbol: '¥', flag: '🇨🇳' },
-  { code: 'INR', name: 'Indian Rupee', symbol: '₹', flag: '🇮🇳' },
-  { code: 'AED', name: 'UAE Dirham', symbol: 'د.إ', flag: '🇦🇪' },
-  { code: 'TRY', name: 'Turkish Lira', symbol: '₺', flag: '🇹🇷' },
-  { code: 'BRL', name: 'Brazilian Real', symbol: 'R$', flag: '🇧🇷' },
-  { code: 'SAR', name: 'Saudi Riyal', symbol: '﷼', flag: '🇸🇦' },
-  { code: 'KRW', name: 'South Korean Won', symbol: '₩', flag: '🇰🇷' },
+  { code: 'USD', name: 'US Dollar', symbol: '$', flag: '💲' },
+  { code: 'EUR', name: 'Euro', symbol: '€', flag: '💶' },
+  { code: 'GBP', name: 'British Pound', symbol: '£', flag: '💷' },
+  { code: 'SDR', name: 'Sovereign SDR', symbol: 'SDR', flag: '🌐' },
+  { code: 'JPY', name: 'Japanese Yen', symbol: '¥', flag: '💴' },
+  { code: 'CNY', name: 'Chinese Yuan', symbol: '¥', flag: '🪙' },
+  { code: 'INR', name: 'Indian Rupee', symbol: '₹', flag: '💰' },
+  { code: 'AED', name: 'Emirates Dirham', symbol: 'د.إ', flag: '💎' },
+  { code: 'TRY', name: 'Turkish Lira', symbol: '₺', flag: '🪙' },
+  { code: 'BRL', name: 'Brazilian Real', symbol: 'R$', flag: '💵' },
+  { code: 'SAR', name: 'Saudi Riyal', symbol: '﷼', flag: '💳' },
+  { code: 'KRW', name: 'South Korean Won', symbol: '₩', flag: '🪙' },
 ];
 
 const BASE_RATES = {
-  USD: 1, EUR: 0.92, GBP: 0.79, IQD: 1310, JPY: 149.5, CNY: 7.24,
+  USD: 1, EUR: 0.92, GBP: 0.79, SDR: 0.75, JPY: 149.5, CNY: 7.24,
   INR: 83.1, AED: 3.67, TRY: 27.2, BRL: 4.97, SAR: 3.75, KRW: 1325,
   BTC: 0.0000236, ETH: 0.000384,
 };

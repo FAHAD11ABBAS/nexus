@@ -20,7 +20,7 @@ export const DEFAULT_LIBRARY_BOOKS = [
     title: 'Meditations of Marcus Aurelius & Stoic Epistemology',
     author: 'Marcus Aurelius',
     language: 'en',
-    flag: '🇺🇸',
+    flag: '📖',
     category: 'philosophy',
     description: 'Personal writings of the Roman Emperor on Stoic philosophy, self-discipline, and mental sovereignty.',
     content: `Book II, Section 1:
@@ -32,7 +32,7 @@ They are like this because they cannot distinguish good from evil. But I have se
     title: 'الرسالة الذهبية في الطب والوقاية (The Golden Medical Treatise)',
     author: 'الحكيم القديم (Ancient Medical Scholar)',
     language: 'ar',
-    flag: '🇮🇶',
+    flag: '📜',
     category: 'medical',
     description: 'توجيهات طبية ووقائية للحفاظ على صحة الجسد والتوازن الغذائي والتنفسي.',
     content: `اعلم أن الصحة تاج على رؤوس الأصحاء، وإن الوقاية خير من العلاج.

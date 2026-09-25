@@ -39,7 +39,7 @@ const JOB_LISTINGS = [
   { id: 'j3', title: 'Blockchain Developer', company: 'CryptoVerse', location: 'Dubai', type: 'Full-time', salary: '$130K-170K', skills: ['Solidity', 'Web3.js', 'Ethereum'], posted: '3d ago' },
   { id: 'j4', title: 'UX/UI Designer', company: 'Aether Design', location: 'London', type: 'Contract', salary: '£80K-110K', skills: ['Figma', 'Design Systems', 'Prototyping'], posted: '5d ago' },
   { id: 'j5', title: 'DevOps Engineer', company: 'CloudNexus', location: 'Berlin', type: 'Full-time', salary: '€90K-120K', skills: ['Kubernetes', 'AWS', 'Terraform'], posted: '1d ago' },
-  { id: 'j6', title: 'Data Analyst', company: 'InfoPulse', location: 'Baghdad', type: 'Full-time', salary: '$40K-60K', skills: ['SQL', 'Python', 'Tableau'], posted: '4d ago' },
+  { id: 'j6', title: 'Data Analyst', company: 'InfoPulse', location: 'Global Remote', type: 'Full-time', salary: '$70K-95K', skills: ['SQL', 'Python', 'Tableau'], posted: '4d ago' },
   { id: 'j7', title: 'Freelance Content Writer', company: 'MediaFlow', location: 'Remote', type: 'Freelance', salary: '$30-60/hr', skills: ['SEO', 'Copywriting', 'Research'], posted: '2d ago' },
   { id: 'j8', title: 'Mobile App Developer', company: 'AppForge', location: 'Tokyo', type: 'Full-time', salary: '¥10M-14M', skills: ['React Native', 'Swift', 'Kotlin'], posted: '6d ago' },
 ];

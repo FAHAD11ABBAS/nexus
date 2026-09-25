@@ -15,7 +15,7 @@ class LocalizationService {
   getCurrentFlag() {
     const lang = this.getCurrentLanguage();
     const item = SUPPORTED_LANGUAGES.find((l) => l.code === lang);
-    return item ? item.flag : '🇺🇸';
+    return item ? item.flag : '🌐';
   }
 
   isRTL() {

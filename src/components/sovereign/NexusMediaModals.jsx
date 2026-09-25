@@ -10,7 +10,7 @@ export default function NexusMediaModals({ isOpen, onClose, initialTab = 'tv' })
   const [activeTab, setActiveTab] = useState(initialTab); // tv | movies
   const [activeChannel, setActiveChannel] = useState(null);
   const [activeMovie, setActiveMovie] = useState(null);
-  const [selectedSub, setSelectedSub] = useState('Arabic 🇮🇶');
+  const [selectedSub, setSelectedSub] = useState('Arabic');
 
   if (!isOpen) return null;
 
